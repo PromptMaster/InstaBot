@@ -144,7 +144,7 @@ class InstaBot:
                 self.driver.execute_script('arguments[0].scrollIntoView()', nextpic)
                 continue
 
-    def unfollowfollow(self, user): #unfollow and then follow again famous people (it gets you some followers sometime)
+    def unfollowfollow(self, user): #unfollow and then follow again famous people located in "globals" file (it gets you some followers sometime)
         time.sleep(randint(2, 4))
         driver = self.driver
         try:
