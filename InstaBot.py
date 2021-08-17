@@ -1,3 +1,7 @@
+#InstaBot.py
+#
+#Author: Denis Rezende aka PromptMaster
+#Date: Sep-2020
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from selenium.common.exceptions import NoSuchElementException, ElementClickInterceptedException
